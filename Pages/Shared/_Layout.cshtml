@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>My Razor App</title>
+    <link rel="stylesheet" href="css/index.css" asp-append-version="true"/>
+    <link rel="stylesheet" href="~/MyRazorApp.styles.css" asp-append-version="true"/>
+</head>
+<body>
+<header>
+    <partial name="Shared/NavMenuPartial"/>
+</header>
+<main>
+    @RenderBody()
+</main>
+<footer>
+    2024 - Powered by Ygor Carvalho
+</footer>
+
+@RenderSection("scripts", false)
+</body>
+</html>
