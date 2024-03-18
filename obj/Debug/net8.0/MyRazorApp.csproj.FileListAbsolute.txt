@@ -28,3 +28,4 @@
 /Users/farvillage/MyRazorApp/obj/Debug/net8.0/MyRazorApp.pdb
 /Users/farvillage/MyRazorApp/obj/Debug/net8.0/MyRazorApp.genruntimeconfig.cache
 /Users/farvillage/MyRazorApp/obj/Debug/net8.0/ref/MyRazorApp.dll
+/Users/farvillage/MyRazorApp/obj/Debug/net8.0/MyRazorApp.sourcelink.json

@@ -5,21 +5,20 @@ namespace MyRazorApp.Pages;
 
 public class Categories : PageModel
 {
-    public List<Category> CategoryList { get; set; } = new();
+    public List<Category> Category { get; set; } = new();
     public void OnGet(
         int skip = 0,
         int take = 25)
     {
-        var temp = new List<Category>();
-        for (var i = 0; i <= 100; i++)
+        for (int i = 0; i <= 1000; i++)
         {
-            CategoryList.Add(
+            Category.Add(
                 new Category(i,
                     Title:$"Category {i}",
                     Price: i*18.95M));
         }
 
-        CategoryList = temp
+        Category = Category
             .Skip(skip)
             .Take(take)
             .ToList();
